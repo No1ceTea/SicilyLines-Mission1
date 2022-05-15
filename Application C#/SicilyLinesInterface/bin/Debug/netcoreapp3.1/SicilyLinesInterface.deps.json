@@ -1,0 +1,141 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "SicilyLinesInterface/1.0.0": {
+        "dependencies": {
+          "MetroFramework": "1.2.0.3",
+          "Prism.Wpf": "8.1.97"
+        },
+        "runtime": {
+          "SicilyLinesInterface.dll": {}
+        }
+      },
+      "MetroFramework/1.2.0.3": {
+        "dependencies": {
+          "MetroFramework.Design": "1.2.0.3",
+          "MetroFramework.Fonts": "1.2.0.3",
+          "MetroFramework.RunTime": "1.2.0.3"
+        }
+      },
+      "MetroFramework.Design/1.2.0.3": {
+        "dependencies": {
+          "MetroFramework.RunTime": "1.2.0.3"
+        },
+        "runtime": {
+          "lib/net40/MetroFramework.Design.dll": {
+            "assemblyVersion": "1.2.0.3",
+            "fileVersion": "1.2.0.3"
+          }
+        }
+      },
+      "MetroFramework.Fonts/1.2.0.3": {
+        "dependencies": {
+          "MetroFramework.RunTime": "1.2.0.3"
+        },
+        "runtime": {
+          "lib/net40/MetroFramework.Fonts.dll": {
+            "assemblyVersion": "1.2.0.3",
+            "fileVersion": "1.2.0.3"
+          }
+        }
+      },
+      "MetroFramework.RunTime/1.2.0.3": {
+        "runtime": {
+          "lib/net40-Client/MetroFramework.dll": {
+            "assemblyVersion": "1.2.0.3",
+            "fileVersion": "1.2.0.3"
+          }
+        }
+      },
+      "Microsoft.Xaml.Behaviors.Wpf/1.1.31": {
+        "runtime": {
+          "lib/netcoreapp3.1/Microsoft.Xaml.Behaviors.dll": {
+            "assemblyVersion": "1.1.0.0",
+            "fileVersion": "1.1.31.10800"
+          }
+        }
+      },
+      "Prism.Core/8.1.97": {
+        "runtime": {
+          "lib/netstandard2.0/Prism.dll": {
+            "assemblyVersion": "8.1.97.5141",
+            "fileVersion": "8.1.97.5141"
+          }
+        }
+      },
+      "Prism.Wpf/8.1.97": {
+        "dependencies": {
+          "Microsoft.Xaml.Behaviors.Wpf": "1.1.31",
+          "Prism.Core": "8.1.97"
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Prism.Wpf.dll": {
+            "assemblyVersion": "8.1.97.5141",
+            "fileVersion": "8.1.97.5141"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "SicilyLinesInterface/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MetroFramework/1.2.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-PldREwx2yJ9GFXoR4IsXgsrTuOOEL1c5qZYeIfv9SVCSd7cJobmNRDHo+2v78E6U1lIWHM+ZIceZEETdOj0+oA==",
+      "path": "metroframework/1.2.0.3",
+      "hashPath": "metroframework.1.2.0.3.nupkg.sha512"
+    },
+    "MetroFramework.Design/1.2.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-JhXzz2m1ofJu+vcqxib1s9nmI1akoDHTRweNISsVcvk38bVabqHpwrTpwvz3z4lcwqIe19/B6M4Rrk5uXdNmhA==",
+      "path": "metroframework.design/1.2.0.3",
+      "hashPath": "metroframework.design.1.2.0.3.nupkg.sha512"
+    },
+    "MetroFramework.Fonts/1.2.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-5PAtJsIKfg4bzXPH3MeS4UFDxc4bgCe9yEEg+HS9+lOuwdChpMtawFw0XK4/u7OZxnCfkcHbnjTpu4IUpBBsfA==",
+      "path": "metroframework.fonts/1.2.0.3",
+      "hashPath": "metroframework.fonts.1.2.0.3.nupkg.sha512"
+    },
+    "MetroFramework.RunTime/1.2.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-7AFviJ+uFd/jApvUzOU8mMzl3NCj/sjIKQgCeJqqEEc78R6LoOTH+qGFZBRIEV+6nqgt9h2Y/ei6xVkTNZ3sJA==",
+      "path": "metroframework.runtime/1.2.0.3",
+      "hashPath": "metroframework.runtime.1.2.0.3.nupkg.sha512"
+    },
+    "Microsoft.Xaml.Behaviors.Wpf/1.1.31": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-LZpuf82ACZWldmfMuv3CTUMDh3o0xo0uHUaybR5HgqVLDBJJ9RZLykplQ/bTJd0/VDt3EhD4iDgUgbdIUAM+Kg==",
+      "path": "microsoft.xaml.behaviors.wpf/1.1.31",
+      "hashPath": "microsoft.xaml.behaviors.wpf.1.1.31.nupkg.sha512"
+    },
+    "Prism.Core/8.1.97": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-EP5zrvWddw3eSq25Y7hHnDYdmLZEC2Z/gMrvmHzUuLbitmA1UaS7wQUlSwNr9Km8lzJNCvytFnaGBEFukHgoHg==",
+      "path": "prism.core/8.1.97",
+      "hashPath": "prism.core.8.1.97.nupkg.sha512"
+    },
+    "Prism.Wpf/8.1.97": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ZEa6S1mK35h8/blyb0uR0ed3wkpHtPdhB4eniXINJnTiJMWlGl/As6SVlFFdOPD+qsEdWNYV3xgyQD/ue5cvBA==",
+      "path": "prism.wpf/8.1.97",
+      "hashPath": "prism.wpf.8.1.97.nupkg.sha512"
+    }
+  }
+}
